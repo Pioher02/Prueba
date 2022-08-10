@@ -1,0 +1,20 @@
+.contacts {
+    display: flex;
+    margin-left: 244px;
+    padding-inline-start: 0px;
+  }
+
+.upcontacts {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    list-style: none;
+    margin-left: 50px;
+  }
+.phone::before{
+    content: '';
+    width: 24px;
+  height: 24px;
+  background-size: contain;
+    background-image: url(./goit-markup-hw-03/images/sobre.jpg);
+}
